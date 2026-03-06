@@ -12,7 +12,7 @@ pipeline {
             description: 'Run Tests'
         )
         booleanParam (
-            name: 'SKIP_DEPLOYnew', 
+            name: 'SKIP_DEPLOY', 
             defaultValue: false, 
             description: 'Skip Deploy'
         )
